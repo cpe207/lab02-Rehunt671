@@ -86,12 +86,11 @@ span {
   transition: 0.5s;
 }
 .home {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 10%;
+  padding: 100px 10%;
 }
 .home-content {
   margin-right: auto;
@@ -106,13 +105,12 @@ span {
 }
 
 .experience {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding-bottom: 6rem;
+  padding: 100px 10%;
   background: var(--second-bg-color);
 }
 .experience-content {
@@ -121,13 +119,12 @@ span {
   max-width: 800px;
 }
 .gallery {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding-bottom: 6rem;
+  padding: 100px 10%;
 }
 .gallery-content {
   margin-right: auto;

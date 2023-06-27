@@ -13,15 +13,36 @@
     <title>Home</title>
   </head>
   <body>
+    
     <header class="header">
-      <a href="#home" class="logo">Nono.</a>
+      <a href="#home" class="logo d-none d-sm-block">Nono.</a>
       <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#experience">Experience</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a href="#home" class="active d-none d-sm-block">Home</a>
+        <a href="#experience" class="d-none d-sm-block">Experience</a>
+        <a href="#gallery" class="d-none d-sm-block">Gallery</a>
+        <a href="#contact" class="d-none d-sm-block">Contact</a>
       </nav>
+      <button class="btn btn-light ms-auto d-sm-none">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-menu-2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M4 6l16 0"></path>
+          <path d="M4 12l16 0"></path>
+          <path d="M4 18l16 0"></path>
+        </svg>
+      </button>
     </header>
+    
     <section class="home" id="home">
       <div class="home-content">
         <div class="d-flex gap-3 mb-3">
